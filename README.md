@@ -3,13 +3,15 @@
 
 This theme is including the following functionalities
 
-1=> Global color variables with Light/Dark
+1=> Mui Responsice menu
+
+2=> Global color variables with Light/Dark
 
     to add the Color variables (/src/theme/index.js)
 
     to customize the Light/Dark Switch button (/src/Views/Components/LockerMenu/component)
 
-2=> Redux
+3=> Redux
 
     to add the reducer you can find the store at (/src/Redux/store.js)
 
