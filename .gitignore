@@ -5,3 +5,6 @@
 
 # production
 /build
+
+#lock.json
+package-lock.json
