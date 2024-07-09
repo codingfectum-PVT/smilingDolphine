@@ -1,0 +1,9 @@
+export const websiteLink = 'https://bighornreddragon.com/';
+export const tgLink = 'https://t.me/RedDragon0x79';
+export const xLink = 'https://x.com/RedDragon0x79';
+export const dexScreenerLink = '#';
+export const dexToolsLink = '#';
+export const uniSwapLink = '#';
+export const buySellTax = '0/0';
+export const supply = 'TBA';
+export const CA = 'TBA';
