@@ -1,6 +1,6 @@
-export const websiteLink = 'https://bighornreddragon.com/';
-export const tgLink = 'https://t.me/RedDragon0x79';
-export const xLink = 'https://x.com/RedDragon0x79';
+export const websiteLink = '#';
+export const tgLink = '#';
+export const xLink = '#';
 export const dexScreenerLink = '#';
 export const dexToolsLink = '#';
 export const uniSwapLink = '#';
