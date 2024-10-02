@@ -26,32 +26,50 @@ const SiteLogo = styled.img`
   height: auto;
 `;
 const MenuLink = styled(Link)`
-  font-size: max(15px, 17px);
+  font-size: 40px;
   font-family: "poppins-light";
   font-weight: bolder;
   color: ${ (props) => props.theme.textPrimary};
   text-transform: uppercase;
   text-decoration: none;
-  padding: ${ (props) => props.p? props.p: '0 15px'};
+  padding: ${ (props) => props.p? props.p: '8px 25px'};
+  background-color: #4DB3DB;
+  border-radius: 8px;
+  border: 3px solid #000;
   cursor: pointer;
   transition-duration: 0.5s;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 5px #000000;
 
+  img{
+    height: 30px;
+    width: auto;
+    
+    @media(max-width: 1600px){
+      height: 20px;
+    }
+    @media(max-width: 599px){
+      height: 18px;
+    }
+  }
   &:hover, &:active, &:focus {
     color: #ffffff;
     transition-duration: 0.5s;
   }
-  @media (max-width: 899px) {
-    display: block;
-    padding: ${ (props) => props.p? props.p: '15px 0 15px 20px'};
-    text-align: left;
+  
+  @media(max-width: 1600px){
+    font-size: 26px;
   }
-  &:last-child {
-    border-width: 0px;
-    background: red;
-    width: calc(100% - 40px);
-    margin: 15px auto;
-    padding: 10px 20px;
+  @media(max-width: 899px){
+    font-size: 18px;
+  }
+  
+  @media (max-width: 550px) {
+    display: inline-block;
     text-align: center;
+    max-width: 260px;
+    margin: 10px !important;
   }
 `;
 
