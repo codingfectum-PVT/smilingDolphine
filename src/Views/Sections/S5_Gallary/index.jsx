@@ -17,7 +17,7 @@ const Wrapper = emotionStyled.div`
 `
 const Gallery = () => {
   return (
-    <div>
+    <div style={{overflow: 'hidden'}}>
         <Box borderTop={'3px solid #000'} borderBottom={'3px solid #000'} ><Markee /></Box>
         <Wrapper>
             <Container maxWidth="xl">
