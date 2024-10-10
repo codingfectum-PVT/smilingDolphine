@@ -1,10 +1,10 @@
 export const websiteLink = 'https://smilingdolphineth.com';
 export const tgLink = 'https://t.me/DolphinEthereum';
 export const xLink = 'https://x.com/DolphinEthereum';
-export const ethScanLink = '#';
-export const dexScreenerLink = '#';
-export const dexToolsLink = '#';
-export const uniSwapLink = '#';
-export const buySellTax = 'TBA';
-export const supply = 'TBA';
-export const CA = 'TBA';
+export const ethScanLink = 'https://etherscan.io/address/0xcde94aa5feee3e02323f91df4fc6f417ae420663';
+export const dexScreenerLink = 'https://dexscreener.com/ethereum/0x21d18b84409b619ddc9c2eef8adfdb951be2c5ac';
+export const dexToolsLink = 'https://www.dextools.io/app/en/ether/pair-explorer/0xCde94aA5fEee3e02323F91df4FC6F417ae420663';
+export const uniSwapLink = 'https://app.uniswap.org/swap?outputCurrency=0xCde94aA5fEee3e02323F91df4FC6F417ae420663&chain=ethereum';
+export const buySellTax = '0/0';
+export const supply = '1,000,000,000 DOLPHIN';
+export const CA = '0xCde94aA5fEee3e02323F91df4FC6F417ae420663';
